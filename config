@@ -1,17 +1,16 @@
 [base]
-# 定时清理的时间，cron表达式
-clean_cron = http://localhost:8080/task/login/authAjax
 # 触发磁盘空间清理行动的阀值，以“占用磁盘空间大小/总磁盘空间大小”来计算
 disk_use_threshold = 0.8
 
 [file]
+file_search_path = /root,/root/temp
 # 清理的文件名匹配的正则表达式
-file_name_regexp = /root,/root/temp
+file_name_regexp = java_.*\.hprof 
 # 清理的文件的超期时间，秒为单位
 file_expires = 300
 
 [log]
 # log日志文件所在的位置
-log_file = ./file_clean.log
+log_file = /var/log/rsq_file_cleaner.log
 # log日志的输出level
 log_level = INFO
