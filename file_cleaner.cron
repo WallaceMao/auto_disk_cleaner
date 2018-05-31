@@ -1,0 +1,1 @@
+0 3 * * * python /srv/salt/scripts/health/rsq_file_cleaner/cleaner.py >> /var/log/rsq_file_cleaner.log 2>&1

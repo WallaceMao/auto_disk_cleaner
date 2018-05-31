@@ -3,11 +3,11 @@
 disk_use_threshold = 0.8
 
 [file]
-file_search_path = /root,/root/temp
+file_search_path = /usr/local/tomcat8_1,/usr/local/tomcat8_1/bin
 # 清理的文件名匹配的正则表达式
 file_name_regexp = java_.*\.hprof 
 # 清理的文件的超期时间，秒为单位
-file_expires = 300
+file_expires = 86400
 
 [log]
 # log日志文件所在的位置

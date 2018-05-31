@@ -18,8 +18,6 @@ cf.read('/etc/rsq_file_cleaner/config')
 log_file = cf.get('log', 'log_file')
 # log日志的输出level
 log_level = getattr(logging, cf.get('log', 'log_level'), 'INFO')
-# 定时清理的时间，cron表达式
-clean_cron = cf.get('base', 'clean_cron')
 # 触发磁盘空间清理行动的阀值，以“占用磁盘空间大小/总磁盘空间大小”来计算
 disk_use_threshold = cf.getfloat('base', 'disk_use_threshold')
 
