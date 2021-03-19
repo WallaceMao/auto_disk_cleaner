@@ -23,7 +23,7 @@ iotop==0.6
 ipaddress==1.0.19
 IPy==0.75
 javapackages==1.0.0
-Jinja2==2.7.2
+Jinja2==2.11.3
 jsonschema==2.6.0
 kitchen==1.1.1
 langtable==0.0.31
