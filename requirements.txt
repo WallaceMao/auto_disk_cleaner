@@ -1,5 +1,5 @@
 apache-libcloud==2.0.0rc2
-Babel==0.9.6
+Babel==2.9.1
 backports.functools-lru-cache==1.2.1
 backports.ssl-match-hostname==3.5.0.1
 cached-property==1.4.0
