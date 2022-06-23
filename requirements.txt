@@ -49,7 +49,7 @@ PyYAML==3.12
 pyzmq==15.3.0
 repoze.lru==0.4
 requests==2.18.4
-salt==2017.7.2
+salt==3002.7
 schedutils==0.4
 seobject==0.1
 sepolicy==1.1
